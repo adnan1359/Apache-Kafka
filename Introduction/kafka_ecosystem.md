@@ -1,5 +1,7 @@
 ### How Apache Kafka Works?
 
+![Kafka diagram](image.png)
+
 -   **Publisher (Message Producer):**
     
     -   This represents an application or system that **sends** messages.
