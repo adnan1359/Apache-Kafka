@@ -19,7 +19,7 @@
 #### 4. **Brokers**  
 - **What It Is**: A broker is a Kafka server that stores and manages data (messages). A Kafka cluster consists of multiple brokers working together.  
 - **How It Works**: Brokers store partitions of topics and handle requests from producers and consumers. Each broker can store multiple partitions.  
-- **Fault Tolerance**: Partitions can be replicated across brokers for 
+- **Fault Tolerance**: Partitions can be replicated across brokers for redundancy.
   
 #### 5. **Producers**  
 - **What It Is**: Producers are applications or processes that publish messages to Kafka topics.  
