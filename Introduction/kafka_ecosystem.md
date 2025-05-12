@@ -35,3 +35,11 @@
    - The **Subscriber** (or Message Consumer) connects to the broker and subscribes to the relevant topic.
    - The broker delivers messages from the topic to the subscriber. In Kafka, consumers can read messages at their own pace, and Kafka tracks their progress using **offsets** (a pointer to the last message they read).
    - Consumers can belong to a **consumer group**, allowing multiple consumers to process messages in parallel for load balancing.
+  
+---
+
+### Key Concepts in Kafka Context
+- **Topics**: Messages are organized into topics (e.g., `test-topic`). Publishers write to topics, and subscribers read from them.
+- **Partitions**: Each topic is split into partitions, allowing Kafka to scale by distributing messages across multiple brokers or nodes.
+- **Producer/Consumer**: In Kafka, producers send messages to topics, and consumers read from topics. Consumers can form groups to share the workload.
+- **Durability**: Kafka ensures messages are not lost by storing them in logs, even if consumers are offline temporarily.
