@@ -3,9 +3,7 @@
 **Kafka Connect** is a framework within Apache Kafka for reliably streaming data between Kafka and external systems. It provides a scalable, fault-tolerant way to integrate Kafka with data sources (e.g., databases, file systems) and sinks (e.g., data warehouses, analytics systems) using pre-built connectors. It eliminates the need to write custom code for many integration tasks by offering a declarative, configuration-driven approach.  
   
 - **Purpose**: Move large amounts of data into and out of Kafka without writing custom producers or consumers.  
-- **Use Case**: For example, you can use Kafka Connect to stream changes from a MySQL database into a Kafka topic or write messages from a Kafka topic to an Elasticsearch index for search and analytics.  
-  
-In the context of your Docker setup (Kafka broker on `localhost:9092`), Kafka Connect can be added as an additional service to integrate with external systems.  
+- **Use Case**: For example, you can use Kafka Connect to stream changes from a MySQL database into a Kafka topic or write messages from a Kafka topic to an Elasticsearch index for search and analytics.
   
 ---  
   
